@@ -15,22 +15,23 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<!-- background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('<?php echo get_template_directory_uri().'/assets/images/header.jpg'; ?>'); background-position: center; background-size: cover;  -->
 
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<?php $logo_location = get_template_directory();?>
-						<img src="<?php echo $logo_location. '/assets/images/evs_logo.png'; ?>">
-						<h1>Welcome to Enviro Smart Solutions</h1>
-						<h3>Focus on water energy and health</h3>
-						<p>Our website is currently under construction. For enquiries, please contact us as info@envirosmartsolutions.co.za</p>
-					</div>
-				</div>
-			</div>
+<div class="row hero text-center" style="background-color: white;">
+	
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+	
+
+
+		<div class="col-md-12">
+			<img id="logo" src="<?php echo get_template_directory_uri().'/assets/images/evs_logo.png'; ?>"> 
+			<h1>Enviro Smart Solutions</h1>
+			<h3>Water | Energy | Health</h3>
+			<p>Our website is currently under construction.</p> 
+			<p>For enquiries, please contact us at: <br/><a href="mailto:info@envirosmartsolutions.co.za">info@envirosmartsolutions.co.za</a></p>
+		</div>
+	
+</div>
 
 <?php
+get_footer();
