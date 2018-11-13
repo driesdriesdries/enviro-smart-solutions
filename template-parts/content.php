@@ -22,8 +22,8 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				envirosmartsolutions_posted_on();
-				envirosmartsolutions_posted_by();
+				// envirosmartsolutions_posted_on();
+				// envirosmartsolutions_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>

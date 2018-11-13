@@ -10,3 +10,8 @@
 .hero img {
 	margin-top: 150px;
 }
+
+/*Single.php*/
+.single_container {
+	border:1px solid black;
+}
