@@ -1,6 +1,3 @@
-* {
-	font-family: 'Ubuntu', sans-serif;
-}
 .hero {
 	height: 100vh;
 }
@@ -10,8 +7,9 @@
 .hero img {
 	margin-top: 150px;
 }
-
-/*Single.php*/
-.single_container {
-	border:1px solid black;
+.sidebar {
+	background-color: crimson;
+}
+.sidebar a{
+	color: white;
 }

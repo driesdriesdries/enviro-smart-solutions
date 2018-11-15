@@ -14,7 +14,10 @@ get_header();
 		<main id="main" class="site-main">
 			<div class="container single_container">
 				<div class="row">
-					<div class="col-sm-12">
+					<div class="col-sm-3 sidebar">
+						<?php get_sidebar(); ?>
+					</div>
+					<div class="col-sm-9">
 						<?php
 						while ( have_posts() ) :
 							the_post();
