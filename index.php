@@ -15,22 +15,51 @@
 get_header();
 ?>
 
-<!-- background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('<?php echo get_template_directory_uri().'/assets/images/header.jpg'; ?>'); background-position: center; background-size: cover;  -->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+		
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLNR3N1ChDAGfRRPhpbvgfEyPkiodj022TyKiiVTMtvU9iaFG" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Water Treatment</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			    <a href="#" class="btn btn-primary">Go somewhere</a>
+			  </div>
+			</div>
 
-<div class="row hero text-center" style="background-color: white;">
-	
-
-	
-
-
-		<div class="col-md-12">
-			<img id="logo" src="<?php echo get_template_directory_uri().'/assets/images/evs_logo.png'; ?>"> 
-			<h1>Enviro Smart Solutions</h1>
-			<h3>Water | Energy | Health</h3>
-			<p>Our website is currently under construction.</p> 
-			<p>For enquiries, please contact us at: <br/><a href="mailto:info@envirosmartsolutions.co.za">info@envirosmartsolutions.co.za</a></p>
 		</div>
+
+		<div class="col-sm-4">
+		
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="https://img1.cookinglight.timeinc.net/sites/default/files/styles/medium_2x/public/1502826406/1708w-getty-fruit-closeup-CarstenSchanter-EyeEm.jpg?itok=jPv5UkUK" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Food Cleaning</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			    <a href="#" class="btn btn-primary">Go somewhere</a>
+			  </div>
+			</div>
+
+		</div>
+
+		<div class="col-sm-4">
+		
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="https://www.znbc.co.zm/wp-content/uploads/2018/11/trees.jpg" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Outdoor solutions</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			    <a href="#" class="btn btn-primary">Go somewhere</a>
+			  </div>
+			</div>
+
+		</div>
+
+	</div>
 	
+
+
 </div>
 
 <?php
