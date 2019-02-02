@@ -1,15 +1,22 @@
-.hero {
-	height: 100vh;
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-top: 10px; /* Added */
 }
-.hero h1, .hero h3, .hero p, .hero a{
-	color: #2f2f2f;
+.primary_grid {
+	margin-top: 10px;
 }
-.hero img {
-	margin-top: 150px;
+.sinlge_post_container {
+	border:1px solid gold;
+	padding-top: 50px;
+	margin-bottom: 25px;
 }
-.sidebar {
-	background-color: crimson;
+.sinlge_post_container .col-9{
+	border:1px solid green;
 }
-.sidebar a{
-	color: white;
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
